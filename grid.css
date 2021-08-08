@@ -30,6 +30,7 @@
     .row {
         flex-wrap: wrap;
     }
+    
 }
     
 @media(min-width:768px) {
@@ -66,6 +67,15 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .section-image {
+        background-size: 140%;
+    }
+    .read-more {
+        left: 20%;
+    }
+    .get-out-container {
+        height: 435px;
+    }
 }
 @media(min-width:992px) {
     .container { 
@@ -100,9 +110,25 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .read-more {
+        left: 25%;
+    }
+    .section-image {
+        background-size: 116%;
+    }
+    .get-out-container {
+        height: 506px;
+    }
 }
 @media(min-width:1200px) {
     .container { 
         max-width: 1140px;  
     }
+    .section-image {
+        background-size: 103%;
+    }
+    .get-out-container {
+        height: 700px;
+    }
 }
+

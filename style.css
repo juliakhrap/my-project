@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
-}    
-section {
-    background-image: url(images/home_behind_slider_slide1_bg.jpg);
-    background-size: 110%;
+}  
+
+.section-image {
+    background-image: url("images/home_behind_slider_slide1_bg.jpg");
     background-repeat: no-repeat;
 }
-
+[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .logo {
     justify-content: center;
 }
@@ -18,7 +21,7 @@ section {
     margin-right: auto;
 }
 .get-out-container {
-    height: 700px;
+    height: 506px;
 }
 .header-row {
     padding-top: 45px;
@@ -61,7 +64,7 @@ section {
     padding-bottom: 25px;
     line-height: 65px;
 }
-h1, p {
+.main-title + p {
     color: yellowgreen;
     font-family: 'Yantramanav', sans-serif;
     font-size: 19px;
@@ -84,10 +87,174 @@ h1, p {
     border: solid rgba(48, 60, 42) 1px;
     border-radius: 4px;
 }
+
 .read-more {
     position: absolute;
     left: 30%;
 }
+.fa-arrow-alt-circle-right {
+    padding-left: 5px;
+}
+.fa-book {
+    padding-left: 5px;
+}
+
 .btn:hover {
     background-color: #81a029;
+}
+.alps {
+    background-image: url("images/home_behind_sectionbg1.png");
+    background-color: rgb(28, 30, 28);
+    background-size: cover;
+}
+.text {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title-alps {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: 'PT Serif', sans-serif;
+    text-align: left;
+    padding-left: 50px;
+}
+.title-alps +h6 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 13px;
+    color: #81a029;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.alps-description {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding-left: 50px;
+    line-height: 25px;
+}
+.booking {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 135px;
+    height: 45px;
+    background: rgb(56, 56, 56);
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    border: none;
+}
+.booking:hover {
+    background-color: rgb(41, 41, 41);
+}
+.news-title {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'PT Serif', sans-serif;
+}
+.user-data {
+    margin-top: 15px;
+    text-decoration: none; 
+}
+.user {
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-style: dotted;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    color: grey;
+}
+.fa-user {
+    color: grey;
+    padding-right: 5px;
+}
+.fa-clock {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+span {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    color: grey;
+}
+.news-text {
+    margin-top: 15px;
+}
+.article-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'PT Serif', sans-serif;
+    text-decoration: none;
+}
+.article-title + p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+}
+.like-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.fa-heart {
+    color: #81a029;
+    padding-right: 5px;
+}
+.number, .fa-file-alt{
+    color: grey;
+}
+.read-mr {
+    padding-right: 20px;
+}
+.read-mr a {
+    color: #81a029;
+    text-decoration: none;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+}
+.read-mr a:hover {
+    border-bottom: solid 2px #81a029;
+}
+.fa-file-alt {
+    padding-right: 5px;
+}
+.what-you-need {
+    background-image: url("images/home_behind_sectionbg2.jpg") ;
+    background-position: center center;
+    
+    
+}
+.necessery-items h3 {
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'PT Serif', sans-serif;
+}
+.necessery-items p {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+.black {
+    background-color: rgb(26, 25, 25);
+}
+.title-video {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
 }
