@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }  
+.header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+}
 
 .section-image {
     background-image: url("images/home_behind_slider_slide1_bg.jpg");
@@ -21,7 +24,7 @@
     margin-right: auto;
 }
 .get-out-container {
-    height: 506px;
+    height: 700px;
 }
 .header-row {
     padding-top: 45px;
@@ -62,7 +65,9 @@
     font-size: 64px;
     color: white;
     padding-bottom: 25px;
+    padding-top: 100px;
     line-height: 65px;
+
 }
 .main-title + p {
     color: yellowgreen;
@@ -147,7 +152,7 @@
     border: none;
 }
 .booking:hover {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(59, 59, 59);
 }
 .news-title {
     margin-top: 70px;
@@ -184,6 +189,17 @@ span {
 }
 .news-text {
     margin-top: 15px;
+}
+.news-image {
+    display: inline-block;
+    overflow: hidden; 
+}
+.news-image img {
+    transition: 1s;
+    display: block;
+}
+.news-image img:hover {
+    transform: scale(1.2);
 }
 .article-title {
     color: white;
