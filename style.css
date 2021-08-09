@@ -104,7 +104,7 @@
 }
 .alps {
     background-image: url("images/home_behind_sectionbg1.png");
-    background-color: rgb(28, 30, 28);
+    background-color: rgba(31, 30, 28, 1);
     background-size: cover;
 }
 .text {
@@ -140,7 +140,7 @@
     margin-top: 20px;
     width: 135px;
     height: 45px;
-    background: rgb(56, 56, 56);
+    background: rgba(41, 40, 41, 1);
     color: white;
     font-family: 'Yantramanav', sans-serif;
     font-size: 17px;
@@ -151,7 +151,7 @@
 }
 .news-title {
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     color: white;
     font-size: 48px;
     font-weight: 700;
@@ -247,7 +247,7 @@ span {
     margin-bottom: 100px;
 }
 .black {
-    background-color: rgb(26, 25, 25);
+    background-color:rgba(31, 30, 28, 1);
 }
 .title-video {
     margin-top: 70px;
@@ -257,4 +257,100 @@ span {
     font-weight: 700;
     font-family: 'PT Serif', sans-serif;
     text-align: center;
+}
+.text-in-gallery {
+    display: flex;
+    justify-content: center;
+}
+.gallery-text p {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+p span {
+    color: #81a029;
+}
+.buttons-in-gallery {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+.btn {
+    width: 150px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+}
+.show-photos i, .instagram i {
+    color: #81a029;
+    padding-left: 5px;
+}
+.btn:hover button i:hover {
+    color: white;
+}
+.show-photos {
+    margin-right: 20px;
+}
+.travel-photos {
+    background-color:rgba(31, 30, 28, 1);
+}
+.travel-img {
+    width: 100%;
+}
+.mini-title {
+    width: 160px;
+    height: 20px;
+    margin-top: 80px;
+}
+.wanderer-description {
+    padding-top: 30px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+li a {
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    line-height: 35px;
+    text-decoration: none;
+}
+li a:hover, .authors a:hover {
+    color: #81a029;
+    border-bottom: solid 2px  #81a029;;
+}
+.fa-angle-right {
+    color: #81a029;
+    padding-right: 5px;
+}
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    height: 80px;
+    background-color:rgba(31, 30, 28, 1);
+}
+.authors {
+    padding-top: 4%;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+}
+.authors a {
+    color: white;
+    text-decoration: none;
+}
+.social-icons {
+    padding-top: 14%;
+}
+.icons {
+    padding-right: 10px;
+    color: #81a029;
+}
+.icons:hover {
+    color: #a9ca4d;
 }
