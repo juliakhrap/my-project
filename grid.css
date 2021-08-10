@@ -30,7 +30,14 @@
     .row {
         flex-wrap: wrap;
     }
-    
+    .social-icons {
+        padding-top: 7px;
+        text-align: center;
+    }
+    article {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
     
 @media(min-width:768px) {
@@ -77,9 +84,6 @@
     .read-more {
         left: 20%;
     }
-    .get-out-container {
-        height: 435px;
-    }
 }
 @media(min-width:992px) {
     .container { 
@@ -123,6 +127,9 @@
     }
     .section-image {
         background-size: 116%;
+    }
+    .social-icons {
+        padding-top: 14px;
     }
     
 }
